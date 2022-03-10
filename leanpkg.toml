@@ -1,0 +1,8 @@
+[package]
+name = "W_types"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.40.0"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "c4cf451ae28c049edb9d68d9fecd2dd2b9bd6fb9"}
